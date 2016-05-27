@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MiliterArea2SMG.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>MiliterArea2SMG</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				110.3675587323948,-6.966173499729243,0 110.3675219585753,-6.966210404988232,0 110.3736270414061,-6.971368506765389,0 110.3751804334669,-6.972674190827763,0 110.3744373698756,-6.973557936652227,0 110.3739858823021,-6.973195125429,0 110.3734841166021,-6.973795272143801,0 110.3728016668105,-6.973238142400569,0 110.3726263509785,-6.973434595441295,0 110.375170932487,-6.975558265847811,0 110.375052433323,-6.975706559691046,0 110.3756762240337,-6.976208511813329,0 110.3761597513859,-6.975632323733486,0 110.3773116369552,-6.976602170592396,0 110.3774061399995,-6.976494043121468,0 110.3775052322257,-6.976485927322761,0 110.3775341422367,-6.976536255426527,0 110.3774695504119,-6.976646693416485,0 110.3773324859096,-6.976802277096891,0 110.3775086775195,-6.976934203435953,0 110.3778979475289,-6.976499811273912,0 110.3779031218694,-6.976459780690618,0 110.3776506822277,-6.97647801721656,0 110.3775352182018,-6.976677615323009,0 110.3774685520564,-6.976781120096161,0 110.3774089106188,-6.976855471076235,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

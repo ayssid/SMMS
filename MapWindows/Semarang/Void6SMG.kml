@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Void6SMG.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Void6SMG</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				110.3779827912878,-6.976505632850334,0 110.3779919822468,-6.976547889140614,0 110.3779861425765,-6.976670129431293,0 110.3779706415818,-6.976904767228001,0 110.3779514113427,-6.977025352551427,0 110.3779267311253,-6.977096033038592,0 110.3778860445963,-6.977151452342087,0 110.3778698964406,-6.977167433851091,0 110.3776637862024,-6.977032997535503,0 110.3776286205855,-6.977000094385649,0 110.3776312881845,-6.976954718746493,0 110.3776408806505,-6.976903211310543,0 110.3776784742051,-6.976830469986114,0 110.3778300351162,-6.976671187622209,0 110.3779827912878,-6.976505632850334,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
